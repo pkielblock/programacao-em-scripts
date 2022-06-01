@@ -1,3 +1,3 @@
-## Programacao em Script
+## Programacao em Scripts
 
-* Repository For Script Programming Study at College.
+* Repository For Scripts Programming Study at College.
