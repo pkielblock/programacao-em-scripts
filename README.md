@@ -1,3 +1,3 @@
 ## Javascript
 
-* Repository For JS Study at College.
+* Repository For Script Programming Study at College.
