@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: lightblue;
+}
+.headerText {
+    text-align: center;
+}
+
+.fatec {
+    padding-left: 10px;
+    width: 135px;
+}
+
+.img {
+    padding-left: 25px;
+    width: 4%;
+}
+
+.aside {
+    width: 10%;
+    height: 800px;
+    background-color: lightblue;
+    float: left;
+}
+
+.section {
+    width: 90%;
+    float: left;
+}
