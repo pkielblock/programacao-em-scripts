@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.total {
+    background-color: #f1c232;
+}
+
+.header {
+    background-color: lightyellow;
+}
+
+.lines {
+    background-color: lightgrey;
+}
