@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <hr>
+    <div>
+        <form action="../PHP/12-forms.php" method="POST">
+            <label for="nome">Digite seu nome:</label><br>
+            <input type="text" name="nome"><br>
+            <label for="idade">Digite sua Idade:</label><br>
+            <input type="number" name="idade"><br>
+            <input type="checkbox" name="chkA" value="A"><label for="chkA">A</label><br>
+            <input type="checkbox" name="chkB" value="B"><label for="chkB">B</label><br>
+            <input type="checkbox" name="chkC" value="C"><label for="chkC">C</label><br>
+            <input type="radio" name="rd" value="A"><label for="rd">A</label><br>
+            <input type="radio" name="rd" value="B"><label for="rd">B</label><br>
+            <input type="radio" name="rd" value="C"><label for="rd">C</label><br>
+            <label for="password">Digite um Senha:</label><br>
+            <input type="password" name="password"><br>
+            <input type="hidden" name="hidden" value="Escondido">
+            <label for="file">Selecione um Arquivo:</label><br>
+            <input type="file" name="file"><br>
+            <label for="estadoCivil">Estado Civil: </label><br>
+            <select name="estadoCivil">
+                <option value="Solteiro"><label>Solteiro</label></option>
+                <option value="Casado"><label>Casado</label></option>
+            </select>
+            <br>
+            <label for="preferencia">Preferencia: </label><br>
+            <select name="preferencia">
+                <optgroup label="Cor">
+                    <option value="Azul">Azul</option>
+                    <option value="Vermelho">Vermelho</option>
+                </optgroup>
+                <optgroup label="Sei La">
+                    <option value="Seila1">Seila1</option>
+                    <option value="Seila2">Seila2</option>
+                </optgroup>
+            </select>
+            <br>
+            <label for="resumo">Resumo: </label><br>
+            <textarea name="resumo" cols="30" rows="4"></textarea>
+            <hr>
+            <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+        </form>
+    </div>
+</body>
+</html>
