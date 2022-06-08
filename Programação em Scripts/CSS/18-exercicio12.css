@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+div {
+    width: 100%;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+}

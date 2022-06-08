@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#abacaxi {
+    list-style-position: inside;
+    list-style-image: url(https://imagensemoldes.com.br/wp-content/uploads/2020/05/Foto-Abacaxi-PNG-412x1024.png);
+}
+
+#morango {
+    list-style-position: inside;
+    list-style-image: url(https://i.pinimg.com/originals/bd/b3/c8/bdb3c89bbf81e3c3c5389aafbb3cc50c.png);
+}
+
+#laranja {
+    list-style-position: inside;
+    list-style-image: url(https://imagensemoldes.com.br/wp-content/uploads/2020/05/Laranja-PNG.png);
+}
+
+.header {
+    background-color: lightblue;
+}
+.headerText {
+    text-align: center;
+}
+
+.fatec {
+    padding-left: 10px;
+    width: 135px;
+}
+
+.img {
+    padding-left: 25px;
+    width: 4%;
+}
+
+.aside {
+    width: 10%;
+    height: 800px;
+    background-color: lightblue;
+    float: left;
+}
+
+.section {
+    width: 90%;
+    float: left;
+}
