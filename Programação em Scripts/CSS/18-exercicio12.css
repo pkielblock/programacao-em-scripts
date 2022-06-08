@@ -1,7 +1,5 @@
 body {
     font-family: sans-serif;
-    padding-left: 500px;
-    padding-right: 500px;
 }
 
 h1 {
@@ -10,10 +8,18 @@ h1 {
 }
 
 div {
-    width: 100%;
+    width: 1000px;
     border: 1px solid lightgray;
     box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto; 
 }
+
+
+p {
+    padding: 20px;
+}
+
 
 h2 {
     color: orange;
@@ -23,7 +29,7 @@ h2 {
 }
 
 #header {
-    width: 100%;
+    width: 1000px;
     height: 100px;
     background-color: lightgray;
 }
