@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validar Form</title>
+</head>
+<body>
+    <form action="../JS/25-exercicio19.js">
+        <label>Nome: </label>
+        <input type="text" name="nome" id="nome">
+        <br>
+        <label>Idade: </label>
+        <input type="number" name="idade" id="idade">
+        <br>
+        <label>Sexo: </label>
+        <select name="sexo" id="sexo">
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+        </select>
+        <br>
+        <label>Data de Nascimento </label>
+        <br>
+        <label>Dia: </label>
+        <input type="number" name="dia" id="dia">
+        <br>
+        <label>Mês: </label>
+        <input type="number" name="mes" id="mes">
+        <br>
+        <label>Ano: </label>
+        <input type="number" name="ano" id="ano">
+        <br>
+        <label>Estado Civil: </label>
+        <select name="estadoCivil" id="estadoCivil">
+            <option value="Solteiro">Solteiro(a)</option>
+            <option value="Casado">Casado(a)</option>
+            <option value="Divorciado">Divorciado(a)</option>
+            <option value="Viuvo">Viuvo(a)</option>
+        </select>
+        <br>
+        <label>CPF: </label>
+        <input type="number" name="cpf" id="cpf">
+        <br>
+        <label>Email: </label>
+        <input type="text" name="email" id="email">
+        <br>
+        <input type="button" value="Mostrar Dados" onclick="checkData();">
+    </form>
+</body>
+<script src="../JS/25-exercicio19.js"></script>
+</html>
