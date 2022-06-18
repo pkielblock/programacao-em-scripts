@@ -8,16 +8,18 @@ function modal() {
     }
 }
 
-function openPage(pagina, idElemento){
-    let elemento = document.getElementById(idElemento);
-    let ajax = new XMLHttpRequest();
+function openPage(pagina){
+    let elemento = document.getElementById('centro');
+    const ajax = new XMLHttpRequest();
 
     ajax.onreadystatechange = function () {
-        if (ajax.readyState == 4 && ajax.status == 200) {
+        if (ajax.status === 200) {
             elemento.innerHTML = ajax.responseText;
+        } else {
+            console.warn("Error");
         }
-    }
+    };
     
-    ajax.open("GET", pagina, true);
+    ajax.open('get', pagina, true);
     ajax.send();
 }
