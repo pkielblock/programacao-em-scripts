@@ -20,13 +20,6 @@ function operation($numero1, $numero2, $operacao) {
     }
     return $resultado;
 }
-
-
-echo "4 e 2" . "<br>";
-echo "4 + 2 = " . operation(4, 2, "+") . "<br>";
-echo "4 - 2 = " . operation(4, 2, "-") . "<br>";
-echo "4 * 2 = " . operation(4, 2, "*") . "<br>";
-echo "4 / 2 = " . operation(4, 2, "/") . "<br>";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -42,5 +35,12 @@ echo "4 / 2 = " . operation(4, 2, "/") . "<br>";
     }
 </style>
 <body>
+    <?php
+        echo "4 e 2" . "<br>";
+        echo "4 + 2 = " . operation(4, 2, "+") . "<br>";
+        echo "4 - 2 = " . operation(4, 2, "-") . "<br>";
+        echo "4 * 2 = " . operation(4, 2, "*") . "<br>";
+        echo "4 / 2 = " . operation(4, 2, "/") . "<br>";
+    ?>
 </body>
 </html>

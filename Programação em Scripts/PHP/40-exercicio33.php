@@ -6,8 +6,6 @@
     }
 
     $texto = "texto";
-    echo cortaTexto($texto, 2) . "<br>";
-    echo $texto;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,5 +21,9 @@
     }
 </style>
 <body>
+    <?php
+        echo cortaTexto($texto, 2) . "<br>";
+        echo $texto;
+    ?>
 </body>
 </html>
