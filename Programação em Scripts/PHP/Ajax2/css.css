@@ -1,0 +1,62 @@
+body{
+    font-family:arial;
+    }
+    
+    #divTitulo{
+        background:lightyellow;
+        font-size:40px;
+        color:brown;
+        font-family:"Trebuchet MS", Helvetica, sans-serif;
+    
+    }
+    
+    #divTitulo img{
+        height:80px;
+        width:80px;
+    }
+    #divMenu{
+        background:lightyellow;
+        float:left;
+        height:400px;
+        padding:10px;
+    }
+    
+    #divMenu ul ul{
+        display:none;
+    }
+    
+    #divMenu li{
+        list-style:none;
+        list-style-position: outside;
+    }
+    #divConteudo{
+        background:brown;
+        color:lightyellow;	
+        padding:10px;
+    }
+    
+    #divConteudo div div{
+        display:none;
+    }
+    
+    #divConteudo #produtos h1{
+        background:lightyellow;
+        color:Brown;
+    }
+    #divRodape{
+        background:lightyellow;
+        color:brown;
+        float:left;
+        width:100%;
+    }
+    
+    #divRodape #email{
+        float:right;
+    }
+    #subMenuProdutos {
+        flex-direction: column;
+    }
+    #ofertas {
+        display: flex;
+    }
+                
