@@ -1,0 +1,89 @@
+body {
+    font-family: 'Courier New', serif;
+    background-color: #37404f;
+}
+
+ul {
+    padding-right: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #4287f5;
+}
+
+a:visited {
+    color: #4287f5;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: red;
+}
+
+#divTitulo{
+    background: #37404f;
+    font-size: 40px;
+    color: #4287f5;
+    font-family: 'Courier New', serif;
+}
+    
+#divTitulo img{
+    height: 80px;
+    width: 80px;
+}
+#divMenu{
+    background: #37404f;
+    float: left;
+    height: 400px;
+    padding: 10px;
+}
+    
+#divMenu ul ul{
+    display:none;
+}
+    
+#divMenu li{
+    list-style: none outside none;
+}
+
+#divConteudo{
+    background: #37404f;
+    color: white;
+    padding: 10px;
+}
+    
+#divConteudo div div{
+    display: none;
+}
+    
+#divConteudo #produtos h1{
+    background: #37404f;
+    color: white;
+}
+
+#divRodape{
+    background: #37404f;
+    color: #4287f5;
+    float: left;
+    width: 100%;
+}
+    
+#divRodape #email{
+    float: right;
+}
+
+#subMenuProdutos {
+    flex-direction: column;
+}
+
+#ofertas {
+    display: flex;
+}
+                
