@@ -33,6 +33,11 @@ a:active {
     color: #4287f5;
     font-family: 'Courier New', serif;
 }
+
+#divAdmin {
+    font-size: 20px;
+    float: right;
+}
     
 #divTitulo img{
     height: 80px;
