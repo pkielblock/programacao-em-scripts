@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', serif;
+    color: white;
+    background-color: #37404f;
+}
+
+#voltar {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #4287f5;
+}
+
+a:visited {
+    color: #4287f5;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: red;
+}
+
+#divTitulo{
+    background: #37404f;
+    font-size: 40px;
+    color: #4287f5;
+    font-family: 'Courier New', serif;
+}
+
+#divMenu{
+    background: #37404f;
+    color: #4287f5;
+}
+
+#divMenu a{
+    color: #4287f5;
+    text-decoration:none;
+}

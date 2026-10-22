@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 07</title>
+</head>
+<body>
+    <div>
+        <form action="../PHP/12-forms.php" method="POST">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>Nome: <input type="text" name="nome"></label><br>
+                <label>Endereco: <input type="text" name="endereco"></label><br>
+                <label>Email: <input type="email" name="email"></label><br>
+                <label for="escolaridade">Escolaridade: </label>
+                <select name="escolaridade">
+                    <option value="basico">Nivel Basico</option>
+                    <option value="intermediario">Nivel Medio</option>
+                    <option value="completo">Nivel Superior</option>
+                </select><br>
+                <label>Enviar Email: <textarea name="enviarEmail" cols="30" rows="1"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Nobreza do Cargo</legend>
+                <input type="radio" name="rd" value="gerencia">Gerencia
+                <input type="radio" name="rd" value="financeiro">Financeiro
+                <input type="radio" name="rd" value="recepcao">Recepcao
+                <input type="radio" name="rd" value="administrativo">Administrativo
+                <input type="radio" name="rd" value="juridico">Juridico
+                <input type="radio" name="rd" value="outros">Outros
+            </fieldset>
+            <fieldset>
+                <legend>Area de Interesse</legend>
+                <input type="checkbox" name="chkComputacao" value="computacao">Computacao
+                <input type="checkbox" name="chkBiologia" value="biologia">Biologia
+                <input type="checkbox" name="chkComunicacao" value="comunicacao">Comunicacao
+                <input type="checkbox" name="chkMeioAmbiente" value="meioAmbiente">MeioAmbiente
+                <input type="checkbox" name="chkEngenharia" value="engenharia">Engenharia
+                <input type="checkbox" name="chkHistoria" value="historia">Historia
+                <input type="checkbox" name="chkPsicologia" value="psicologia">Psicologia
+            </fieldset>
+            <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+        </form>
+    </div>
+</body>
+</html>

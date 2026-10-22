@@ -1,0 +1,32 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+}
+
+.total {
+    background-color: #f1c232;
+}
+
+.header {
+    background-color: lightyellow;
+}
+
+.lines {
+    background-color: lightgrey;
+}
+
+.lines2 {
+    background-color: white;
+}

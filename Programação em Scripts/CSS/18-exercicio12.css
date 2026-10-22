@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+div {
+    width: 1000px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+p {
+    padding: 20px;
+}
+
+
+h2 {
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+    background-color: black;
+}
+
+#header {
+    width: 1000px;
+    height: 100px;
+    background-color: lightgray;
+}
